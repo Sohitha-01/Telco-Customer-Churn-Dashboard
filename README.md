@@ -29,7 +29,6 @@ Telco_Customer_Churn_Analysis/
 │
 ├── Python/
 │   └── Data_Cleaning.ipynb                    # Data preprocessing notebook
-
 ```
 ---
 
