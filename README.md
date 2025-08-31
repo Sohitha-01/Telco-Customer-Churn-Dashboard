@@ -1,4 +1,4 @@
-# 📊 Telco Customer Churn Analysis & Dashboard
+# 📊 Telco Customer Churn Dashboard
 
 ## 📝 Project Overview  
 This project provides an analysis of customer churn using the **Telco Customer Churn dataset** and interactive **Tableau dashboards**.  
