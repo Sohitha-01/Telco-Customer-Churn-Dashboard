@@ -8,23 +8,29 @@ The goal is to uncover churn patterns, understand demographic and service-relate
 ---
 
 ## 📂 Project Structure  
-Telco Customer Churn Dashboard/  
-├── Dashboards/  
-│   └── Telco_Churn_Dashboard.twbx          # Tableau dashboards  
-│  
-├── Data Set/  
-│   └── Telco_Churn_Clean.csv               # Cleaned dataset  
-│  
-├── Reports/  
-│   ├── Telco_Customer_Churn_Report.docx    # Executive report (Word)  
-│   └── Telco_Customer_Churn_Report.pdf     # Executive report (PDF)  
-│  
-├── Images/  
-│   ├── Dashboard_1.png                     # Customer Churn Overview  
-│   ├── Dashboard_2.png                     # Demographics Dashboard  
-│   ├── Dashboard_3.png                     # Services & Products Dashboard  
-│   ├── Dashboard_4.png                     # Financial Impact Dashboard  
+```
+Telco_Customer_Churn_Analysis/
+│
+├── Dashboard/
+│   └── Telco_Customer_Churn_Analysis.twb      # Tableau dashboard
+│
+├── Dataset/
+│   ├── Telco-Customer-churn.csv               # Raw dataset
+│   └── Telco_Churn_Clean.csv                  # Cleaned dataset
+│
+├── Document Report/
+│   └── Telco_Customer_Churn_Executive_Report.pdf   # Executive summary report
+│
+├── Images/
+│   ├── Demographics and customer churn.png    # Demographics Dashboard
+│   ├── Financial Impact of Customer Churn.png # Financial Impact Dashboard
+│   ├── Services & Product Impact.png          # Services & Products Dashboard
+│   └── Teleco Customer Churn.png              # Customer Churn Overview
+│
+├── Python/
+│   └── Data_Cleaning.ipynb                    # Data preprocessing notebook
 
+```
 ---
 
 ## 🎯 Objectives  
