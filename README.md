@@ -1,9 +1,7 @@
-# 📊 Telco Customer Churn Dashboard
+# 📊 Telco Customer Churn Analysis
 
 ## 📝 Project Overview  
-This project provides an analysis of customer churn using the **Telco Customer Churn dataset** and interactive **Tableau dashboards**.  
-
-The goal is to uncover churn patterns, understand demographic and service-related factors influencing churn, and quantify the financial impact to support business decision-making and retention strategies.  
+This project analyzes customer churn patterns in the **Telco dataset**, aiming to uncover key factors that drive customer retention and attrition. Insights were visualized through **interactive Tableau dashboards** and extended with a **machine learning workflow in Python** for churn prediction.  
 
 ---
 
@@ -34,44 +32,45 @@ Telco_Customer_Churn_Analysis/
 ---
 
 ## 🎯 Objectives  
-- Analyze churn rate and customer segments driving churn.  
-- Identify demographic groups with higher churn risk.  
-- Evaluate service usage and its relationship to churn.  
-- Quantify financial losses due to churn.  
-- Provide executive-level dashboards for decision-making.  
+- Identify customer demographics and services linked to higher churn rates  
+- Highlight revenue impact of customer attrition  
+- Provide actionable insights for churn reduction strategies  
+- Extend analysis with a **predictive churn model**  
 
 ---
 
 ## 🛠️ Tech Stack  
-- **Tableau** – Interactive dashboards and visual storytelling.  
-- **MS Word / PDF** – Supporting executive report.
-- **Python** – For Cleaning, preprocessing & Training the dataset.
-- **CSV (Cleaned dataset)** – Final dataset used for dashboarding.  
+- **Visualization:** Tableau  
+- **Programming:** Python (pandas, scikit-learn, matplotlib)  
+- **Data Source:** Telco Churn Dataset  
 
 ---
 
-## 🔎 Key Analyses & Deliverables  
+## 📊 Tableau Dashboards  
+Interactive dashboards created in Tableau include:  
+- **Churn Overview** – High-level churn statistics and trends  
+- **Demographic Insights** – Churn by gender, senior citizen status, dependents, etc.  
+- **Service Usage** – Impact of internet services, contracts, and payment methods on churn  
+- **Revenue Analysis** – Monthly charges and total revenue loss from churn  
 
-1. **Customer Churn Overview Dashboard**  
-   - KPIs: Total Customers, Churn %, Avg. Tenure  
-   - Churn by Contract type  
-   - Average Monthly Charges by churn status  
-   - Churn trend by Tenure  
+---
 
-2. **Demographics Dashboard**  
-   - Churn by Gender  
-   - Churn by Senior Citizen status  
-   - Churn by Family Status (Partner/Dependents)  
+## 🐍 Machine Learning Extension  
+In addition to dashboards, this project includes a **Python-based churn prediction model**:  
 
-3. **Services & Products Dashboard**  
-   - Churn by Internet Service (DSL, Fiber, None)  
-   - Churn by Add-On Services (Tech Support, Online Security, Streaming TV)  
-   - Churn by Payment Method  
+- **Data Preprocessing:**  
+  - Handled missing values and encoded categorical features  
+  - Train/test split with stratification  
 
-4. **Financial Impact Dashboard**  
-   - Avg. Monthly Charges by churn status  
-   - Revenue Loss Estimate (total $ and %)  
-   - Total Charges distribution (Box Plot)  
+- **Model Training (Basic):**  
+  - Logistic Regression baseline model  
+  - Metrics: **Accuracy, Precision, Recall**  
+  - Confusion Matrix visualization for error analysis  
+
+- **Notebook:**  
+  - [`Preprocessing_&_Training.ipynb`](./Preprocessing_&_Training.ipynb) – preprocessing + churn prediction  
+
+This workflow complements the dashboards by showing how churn insights can be turned into a **predictive model** to anticipate future customer behavior.  
 
 ---
 
