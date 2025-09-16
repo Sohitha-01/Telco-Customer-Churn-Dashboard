@@ -28,7 +28,8 @@ Telco_Customer_Churn_Analysis/
 │   └── Teleco Customer Churn.png              # Customer Churn Overview
 │
 ├── Python/
-│   └── Data_Cleaning.ipynb                    # Data preprocessing notebook
+│   └── Data_Cleaning.ipynb                    # Data Cleaning notebook
+│   └── Preprocessing_&_Training.ipynb         # Data preprocessing & Training notebook
 ```
 ---
 
@@ -44,7 +45,7 @@ Telco_Customer_Churn_Analysis/
 ## 🛠️ Tech Stack  
 - **Tableau** – Interactive dashboards and visual storytelling.  
 - **MS Word / PDF** – Supporting executive report.
-- **Python** – For Cleaning the dataset.
+- **Python** – For Cleaning, preprocessing & Training the dataset.
 - **CSV (Cleaned dataset)** – Final dataset used for dashboarding.  
 
 ---
